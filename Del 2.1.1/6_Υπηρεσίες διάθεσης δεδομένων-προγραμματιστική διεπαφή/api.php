@@ -1994,9 +1994,9 @@ class sql_db
 	}
 
 	$host = 'localhost';
-	$database = 'waspmote';
-	$dbuser = 'waspmote';
-	$dbpass = 'qwe#123!@#';
+	$database = 'sensors_db';
+	$dbuser = 'sensors_user';
+	$dbpass = 'q3wcds(nckj@@dn';
 
 	if(isset($_GET['func']) && $_GET['func']=='checkUser') {
 		$db = new sql_db($host, $dbuser, $dbpass, $database, false);
