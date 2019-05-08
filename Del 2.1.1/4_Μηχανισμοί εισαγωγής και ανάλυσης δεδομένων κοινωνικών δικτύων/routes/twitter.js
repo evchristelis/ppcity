@@ -6,10 +6,10 @@ exports.getTweets = function (req, res) {
 
     //Create Twitter Client - Dev Only to be stored in DB and work with Bearer Token
     const client = new Twitter({
-        consumer_key: 'vxY150uUBhZMNqBFZMYSRn73e',
-        consumer_secret: '2KMegT93MCBzYj1SNv7wTAbURRpDkaVUDjVlZcuOWHPZ0iZpXj',
-        access_token_key: '890916236263116802-Z9slVWqRk4c8Vfljkmdyi3Gje6fBq7A',
-        access_token_secret: 'sU0T5OQXdnfwlW9nSPhSa84oGLIQ2i2eAF4RcmE3jVxVz'
+        consumer_key: '',
+        consumer_secret: '',
+        access_token_key: '',
+        access_token_secret: ''
     });
 
     //Get Twiiter Client
@@ -36,10 +36,10 @@ exports.postTweet = function (req, res) {
 
     //Create Twitter Client - Dev Only to be stored in DB and work with Bearer Token
     const client = new Twitter({
-        consumer_key: 'vxY150uUBhZMNqBFZMYSRn73e',
-        consumer_secret: '2KMegT93MCBzYj1SNv7wTAbURRpDkaVUDjVlZcuOWHPZ0iZpXj',
-        access_token_key: '890916236263116802-Z9slVWqRk4c8Vfljkmdyi3Gje6fBq7A',
-        access_token_secret: 'sU0T5OQXdnfwlW9nSPhSa84oGLIQ2i2eAF4RcmE3jVxVz'
+        consumer_key: '',
+        consumer_secret: '',
+        access_token_key: '',
+        access_token_secret: ''
     });
 
     //Get Twiiter Client
