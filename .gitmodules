@@ -1,3 +1,6 @@
 [submodule "Del 2.1.1/5_Data Portal/ckan"]
 	path = Del 2.1.1/5_Data Portal/ckan
 	url = https://github.com/ckan/ckan.git
+[submodule "Del 2.1.1/2_Βάση δεδομένων με δεδομένα για τις πιλοτικές περιοχές/GET-SDI-Portal"]
+	path = Del 2.1.1/2_Βάση δεδομένων με δεδομένα για τις πιλοτικές περιοχές/GET-SDI-Portal
+	url = https://github.com/GeospatialEnablingTechnologies/GET-SDI-Portal.git
