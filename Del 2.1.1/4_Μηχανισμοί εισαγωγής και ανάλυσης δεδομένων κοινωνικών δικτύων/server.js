@@ -28,8 +28,7 @@ app.use(function (req, res, next) {
 
 
 // We are going to protect /api routes with JWT
-/*
-var expressJwt = require('express-jwt');
+/*var expressJwt = require('express-jwt');
 var someSecret = "someSecret";
  app.use('/api', expressJwt({
      secret: someSecret
@@ -72,7 +71,6 @@ app.delete('/api/users/:userId', db, routes.users.deleteUser);
 //Twitter
 app.post('/api/twitter/search/', routes.twitter.getTweets);
 app.post('/api/twitter/post/', routes.twitter.postTweet);
-
 
 //Tweets
 app.get('/api/tweets', db, routes.tweets.getTweetsMultiple);
