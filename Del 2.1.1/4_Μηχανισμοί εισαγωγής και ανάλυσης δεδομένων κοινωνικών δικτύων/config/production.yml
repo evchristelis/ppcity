@@ -1,0 +1,4 @@
+# RUN WITH NODE_ENV=production
+api:
+mongoDb: {uri: }
+server: {name: localhost, port: 8000}
