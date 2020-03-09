@@ -24,7 +24,7 @@
     "gulp-watch": "^4.3.11",
     "js-yaml": "^3.6.0",
     "jsonwebtoken": "^7.1.9",
-    "jwt-simple": "^0.2.0",
+    "jwt-simple": "^0.5.3",
     "method-override": "^1.0.0",
     "moment": "^2.7.0",
     "mongodb": "2.2.16",
