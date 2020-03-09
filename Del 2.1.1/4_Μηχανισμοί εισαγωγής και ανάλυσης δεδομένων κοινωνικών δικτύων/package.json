@@ -30,7 +30,7 @@
     "mongodb": "2.2.16",
     "mongoose": "^4.7.4",
     "mongoose-findorcreate": "0.1.2",
-    "morgan": "^1.7.0",
+    "morgan": "^1.9.1",
     "nodemailer": "^4.6.8",
     "request": "^2.79.0",
     "twitter": "^1.7.1"
